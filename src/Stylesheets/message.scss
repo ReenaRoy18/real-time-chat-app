@@ -15,7 +15,15 @@
       border-radius: 50%;
       object-fit: cover;
     }
+
+    .date {
+      width: 30px;
+      text-overflow: clip;
+      height: 1rem;
+      font-size: 0.5rem;
+    }
   }
+
   .messageContent {
     max-width: 80%;
     display: flex;
